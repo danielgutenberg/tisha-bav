@@ -13,58 +13,43 @@
   </svg>
 </div>
 
+
 <style>
   .tb-container {
-    display: flex;
-    flex-flow: row wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
     max-width: 1100px;
     margin: 0 auto;
   }
-
-  @media screen and (min-width: 1001px) {
-    .main-column {
-      padding: 30px 200px;
+  @media screen and (max-width: 800px) {
+    .tb-container {
+      grid-template-columns: 1fr;
     }
   }
-
-  @media screen and (max-width: 1000px) {
-    .main-column {
-      padding: 10px 10px;
-    }
-  }
-
   .tb-container a {
     text-decoration: none;
     font-family: sans-serif;
     color: black;
   }
-
   .tb-container img {
     max-width: 100%;
+    height: auto;
+    display: block;
   }
-
-  .main-column {
-    flex: 2;
+  .tb-item {
+    padding: 0 10px;
   }
-
-  .sidebar-column {
-    flex: 1;
-    padding: 0px 10px;
-  }
-
   .tb-title {
     padding-top: 15px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     font-size: 25px;
     line-height: 30px;
     color: white;
   }
-
-  .tb-image {
-    float: left;
-    padding-bottom: 20px;
-  }
 </style>
+
+
 
 <div class="tb-container">
   <div class="main-column">
@@ -112,6 +97,67 @@
 <!--      <img decoding="async" class="tb-image" src="https://matzav.com/wp-content/uploads/2025/07/inkredible-kids-tisha-bav.jpeg" alt="" style="width: 100%; height: auto">-->
 <!--    </a>-->
 <!--  </div>-->
+
+</div>
+
+<div class="tb-container">
+
+  <div class="tb-item" id="pi">
+    <a href="https://go.jcn.io/pi9avjcn" target="_blank" rel="noopener noreferrer">
+      <h1 class="tb-title" style="text-align: left">
+        <span>Project Inspire Presents A Tisha B'Av Film: The Unlikely Village</span>
+      </h1>
+      <img src="https://matzav.com/wp-content/uploads/2026/07/project-inspire.jpg" alt="" />
+    </a>
+  </div>
+  <div class="tb-item" id="mm">
+    <a href="https://go.jcn.io/mmjcn" target="_blank" rel="noopener noreferrer">
+      <h1 class="tb-title" style="text-align: left">
+        <span>Streaming This Tisha B’Av on Meaningful Minute Plus!</span>
+      </h1>
+      <img decoding="async" src="https://matzav.com/wp-content/uploads/2026/07/meaningful-minute.jpg" alt="" />
+    </a>
+  </div>
+  <div class="tb-item" id="on">
+    <a href="https://go.jcn.io/onjcn" target="_blank" rel="noopener noreferrer">
+      <h1 class="tb-title" style="text-align: left">
+        <span>Just One Brick: A Complete Tisha B’Av Experience, Brought To You By  Ohr Naava</span>
+      </h1>
+      <img decoding="async" src="https://matzav.com/wp-content/uploads/2026/07/ohr-naava.jpg" alt="" />
+    </a>
+  </div>
+  <div class="tb-item" id="ta">
+    <a href="https://torahanytime.com/tisha-bav" target="_blank" rel="noopener noreferrer">
+      <h1 class="tb-title" style="text-align: left">
+        <span>Watch Over 30 Free TorahAnytime Tisha B'av Live Programs with Over 80 Speakers</span>
+      </h1>
+    </a>
+    <style>
+      .ta-iframe-CsvP2vbG6FR {
+        width: 100%;
+        height: 400px;
+      }
+    </style>
+    <iframe allowfullscreen="" class="ta-iframe-CsvP2vbG6FR" frameborder="0" scrolling="no" src="https://torahanytime.com/embed/tisha-bav" width="100%"></iframe>
+  </div>
+  <div class="tb-item" id="cchf">
+    <a href="https://go.jcn.io/cchfjcn" target="_blank" rel="noopener noreferrer">
+      <h1 class="tb-title" style="text-align: left">
+        <span>HIDDEN: The Tisha B’Av Event Brought To You By Chofetz Chaim Heritage Foundation</span>
+      </h1>
+      <img decoding="async" src="https://matzav.com/wp-content/uploads/2026/07/cchf.jpg" alt="" />
+    </a>
+  </div>
+  <div class="tb-item" id="ik">
+    <a href="https://go.jcn.io/IK9avJCN" target="_blank" rel="noopener noreferrer">
+      <h1 class="tb-title" style="text-align: left">
+        <span>A Film for the Whole Family, Brought to You by Inkredible Kids</span>
+      </h1>
+      <img decoding="async" src="https://matzav.com/wp-content/uploads/2026/07/inkredible-kids.jpg" alt="" />
+    </a>
+  </div>
+
+
 
 </div>
 

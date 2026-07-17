@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Day of Meaning — Tisha B'Av 5786 | Jewish Content Network</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ COVER / HERO ============ -->
+<header class="cover" id="cover">
+  <div class="cover__brands">
+    <img src="images/logos-lockup.png" alt="Jewish Content Network / ConsultWrite Media" class="cover__logo">
+  </div>
+  <div class="cover__titles">
+    <h1 class="display-title">A Day of Meaning</h1>
+    <p class="display-subtitle">Tisha B'Av 5786</p>
+  </div>
+  <button class="btn btn--start" id="startViewing">Start Viewing</button>
+</header>
+
+<!-- ============ BROWSE ============ -->
+<main class="browse" id="browse">
+
+  <div class="browse__topbar">
+    <div class="browse__brands">
+      <img src="images/logos-lockup.png" alt="Jewish Content Network / ConsultWrite Media" class="browse__logo">
+    </div>
+    <nav class="browse__nav">
+      <a href="#contact" class="btn btn--ghost">Contact Us</a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="menuPanel" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="menu-panel" id="menuPanel">
+      <div class="menu-panel__col">
+        <a href="#sort-featured" data-sort="featured">Featured</a>
+        <a href="#sort-newest" data-sort="newest">Newest</a>
+        <a href="#sort-az" data-sort="az">A-Z</a>
+      </div>
+      <div class="menu-panel__col">
+        <a href="#sort" class="menu-panel__label">Sort</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="browse__hero">
+    <h2 class="display-title display-title--small">A Day of Meaning</h2>
+    <p class="display-subtitle display-subtitle--small">Tisha B'Av 5786</p>
+  </div>
+
+  <div class="carousel" id="carousel">
+    <button class="carousel__arrow carousel__arrow--prev" id="carPrev" aria-label="Previous">&#8249;</button>
+    <div class="carousel__track" id="carTrack">
+      <!-- slides injected by JS -->
+    </div>
+    <button class="carousel__arrow carousel__arrow--next" id="carNext" aria-label="Next">&#8250;</button>
+    <span class="carousel__watch-badge">Watch</span>
+  </div>
+
+  <div class="browse__controls">
+    <div class="search">
+      <label for="searchInput" class="sr-only">Search</label>
+      <input type="search" id="searchInput" placeholder="Search">
+    </div>
+    <div class="categories" id="categories">
+      <button class="category is-active" data-category="all">Inspirational</button>
+      <button class="category" data-category="children">Children</button>
+      <button class="category" data-category="drama">Drama</button>
+    </div>
+  </div>
+
+  <section class="grid" id="cardGrid">
+    <!-- cards injected by JS -->
+  </section>
+
+  <p class="grid__empty" id="gridEmpty" hidden>No titles match your search.</p>
+
+</main>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="contact__header">
+    <div class="contact__titles">
+      <h2 class="display-title display-title--tiny">A Day of Meaning</h2>
+      <p class="display-subtitle display-subtitle--tiny">Tisha B'Av 5786</p>
+    </div>
+    <a href="#cover" class="btn btn--dark">Home</a>
+  </div>
+
+  <div class="contact__body">
+    <div class="contact__brands">
+      <img src="images/logos-lockup.png" alt="Jewish Content Network / ConsultWrite Media" class="contact__logo">
+    </div>
+
+    <form class="contact__form" id="contactForm">
+      <label class="field">
+        <span class="field__label">Name</span>
+        <input type="text" name="name" required>
+      </label>
+      <label class="field">
+        <span class="field__label">Email</span>
+        <input type="email" name="email" required>
+      </label>
+      <label class="field">
+        <span class="field__label">Phone</span>
+        <input type="tel" name="phone">
+      </label>
+      <label class="field">
+        <span class="field__label">Inquiry Reason</span>
+        <textarea name="reason" rows="5"></textarea>
+      </label>
+      <button type="submit" class="btn btn--dark btn--send">Send</button>
+      <p class="contact__success" id="contactSuccess" hidden>Thanks — your message has been sent.</p>
+    </form>
+  </div>
+
+  <div class="contact__banner">
+    <img src="images/footer-banner.jpg" alt="Jewish Content Network — Bringing your message to the hearts and homes of our nation">
+  </div>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>

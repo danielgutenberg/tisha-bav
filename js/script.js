@@ -3,14 +3,13 @@
 
   // ---- Sample data (placeholder copy preserved from the mockup) ----
   var TITLES = [
-    { title: "Project Inspire", subtitle: "The Unlikely Village", img: "images/project-inspire.jpg" },
-    { title: "Meaningful Minute", subtitle: "Neighbors", img: "images/meaningful-minute.jpg" },
-    { title: "Aish", subtitle: "Terror.  Meet the Heroes", img: "images/aish.jpg" },
-    { title: "Project Inspire", subtitle: "The Unlikely Village", img: "images/card-unlikely-village.jpg" },
-    { title: "Project Inspire", subtitle: "The Unlikely Village", img: "images/card-unlikely-village.jpg" },
-    { title: "Inkredible Kids", subtitle: "A Family Film", img: "images/inkredible-kids.jpg" }
+    { title: "Project Inspire", subtitle: "The Unlikely Village", img: "images/project-inspire.jpg", desc: "Description: Dolut la volupta spelitate aceperatem doloratur sim quam ium quatur sit exere vendebi tibusan ihilit dolum", url: "https://example.com/project-inspire" },
+    { title: "Meaningful Minute", subtitle: "Neighbors", img: "images/meaningful-minute.jpg", desc: "Description: Dolut la volupta spelitate aceperatem doloratur sim quam ium quatur sit exere vendebi tibusan ihilit dolum", url: "https://example.com/meaningful-minute" },
+    { title: "Aish", subtitle: "Terror.  Meet the Heroes", img: "images/aish.jpg", desc: "Description: Dolut la volupta spelitate aceperatem doloratur sim quam ium quatur sit exere vendebi tibusan ihilit dolum", url: "https://example.com/aish" },
+    { title: "Ohr Naava", subtitle: "Just One Brick", img: "images/ohr-naava.jpg", desc: "Description: Dolut la volupta spelitate aceperatem doloratur sim quam ium quatur sit exere vendebi tibusan ihilit dolum", url: "https://example.com/ohr-naava" },
+    { title: "Chofetz Chaim Heritage Foundation", subtitle: "Hidden", img: "images/cchf.jpg", desc: "Description: Dolut la volupta spelitate aceperatem doloratur sim quam ium quatur sit exere vendebi tibusan ihilit dolum", url: "https://example.com/cchf" },
+    { title: "Inkredible Kids", subtitle: "A Family Film", img: "images/inkredible-kids.jpg", desc: "Description: Dolut la volupta spelitate aceperatem doloratur sim quam ium quatur sit exere vendebi tibusan ihilit dolum", url: "https://example.com/inkredible-kids" }
   ];
-  var DESC = "Description: Dolut la volupta spelitate aceperatem doloratur sim quam ium quatur sit exere vendebi tibusan ihilit dolum";
 
   var grid = document.getElementById("cardGrid");
   var track = document.getElementById("carTrack");
@@ -21,9 +20,9 @@
       '  <div class="card__media"><img src="' + item.img + '" alt="' + item.subtitle + '" loading="lazy"></div>' +
       '  <h3 class="card__title">' + item.title + '</h3>' +
       '  <p class="card__subtitle">' + item.subtitle + '</p>' +
-      '  <p class="card__desc">' + DESC + '</p>' +
+      '  <p class="card__desc">' + item.desc + '</p>' +
       '  <div class="card__actions">' +
-      '    <button class="btn btn-watch">Watch</button>' +
+      '    <a class="btn btn-watch" href="' + item.url + '" target="_blank" rel="noopener">Watch</a>' +
       '    <button class="btn btn-info">More Info</button>' +
       '  </div>' +
       '</article>'
@@ -37,8 +36,8 @@
   function renderCarousel() {
     track.innerHTML = TITLES.map(function (item, i) {
       return (
-        '<div class="carousel__slide' + (i === 1 ? " is-center" : "") + '">' +
-        '<img src="' + item.img + '" alt="' + item.subtitle + '" loading="lazy"></div>'
+        '<a class="carousel__slide' + (i === 1 ? " is-center" : "") + '" href="' + item.url + '" target="_blank" rel="noopener">' +
+        '<img src="' + item.img + '" alt="' + item.subtitle + '" loading="lazy"></a>'
       );
     }).join("");
   }

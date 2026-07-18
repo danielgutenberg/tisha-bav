@@ -253,7 +253,7 @@ button {
   transition: opacity .25s ease, transform .25s ease;
 }
 .carousel__slide.is-center { opacity: 1; transform: scale(1.02); }
-.carousel__slide img { width: 100%; aspect-ratio: 16/9.3; object-fit: cover; }
+.carousel__slide img { width: 100%; aspect-ratio: 16/9.3; object-fit: fill; }
 
 .carousel__arrow {
   position: absolute;
@@ -307,7 +307,7 @@ button {
   overflow: hidden;
   border: 1px solid var(--line);
 }
-.card__media img { width: 100%; aspect-ratio: 16/9.3; object-fit: cover; }
+.card__media img { width: 100%; aspect-ratio: 16/9.3; object-fit: fill; }
 
 .card__title {
   font-family: var(--heading);

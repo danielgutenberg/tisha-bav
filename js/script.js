@@ -3,12 +3,12 @@
 
   // ---- Sample data (placeholder copy preserved from the mockup) ----
   var TITLES = [
-    { title: "Project Inspire", subtitle: "The Unlikely Village", img: "images/project-inspire.jpg", desc: "Description: Dolut la volupta spelitate aceperatem doloratur sim quam ium quatur sit exere vendebi tibusan ihilit dolum", url: "https://example.com/project-inspire" },
-    { title: "Meaningful Minute", subtitle: "Neighbors", img: "images/meaningful-minute.jpg", desc: "Description: Dolut la volupta spelitate aceperatem doloratur sim quam ium quatur sit exere vendebi tibusan ihilit dolum", url: "https://example.com/meaningful-minute" },
-    { title: "Aish", subtitle: "Terror.  Meet the Heroes", img: "images/aish.jpg", desc: "Description: Dolut la volupta spelitate aceperatem doloratur sim quam ium quatur sit exere vendebi tibusan ihilit dolum", url: "https://example.com/aish" },
-    { title: "Ohr Naava", subtitle: "Just One Brick", img: "images/ohr-naava.jpg", desc: "Description: Dolut la volupta spelitate aceperatem doloratur sim quam ium quatur sit exere vendebi tibusan ihilit dolum", url: "https://example.com/ohr-naava" },
-    { title: "Chofetz Chaim Heritage Foundation", subtitle: "Hidden", img: "images/cchf.jpg", desc: "Description: Dolut la volupta spelitate aceperatem doloratur sim quam ium quatur sit exere vendebi tibusan ihilit dolum", url: "https://example.com/cchf" },
-    { title: "Inkredible Kids", subtitle: "A Family Film", img: "images/inkredible-kids.jpg", desc: "Description: Dolut la volupta spelitate aceperatem doloratur sim quam ium quatur sit exere vendebi tibusan ihilit dolum", url: "https://example.com/inkredible-kids" }
+    { title: "Project Inspire", subtitle: "The Unlikely Village", img: "images/project-inspire.jpg", desc: "", url: "https://go.jcn.io/pi9avjcn" },
+    { title: "Meaningful Minute", subtitle: "Neighbors", img: "images/meaningful-minute.jpg", desc: "", url: "https://go.jcn.io/mmjcn" },
+    { title: "Aish", subtitle: "Terror.  Meet the Heroes", img: "images/aish.jpg", desc: "", url: "https://9av.aish.com/dom" },
+    { title: "Ohr Naava", subtitle: "Just One Brick", img: "images/ohr-naava.jpg", desc: "", url: "https://go.jcn.io/onjcn" },
+    { title: "Chofetz Chaim Heritage Foundation", subtitle: "Hidden", img: "images/cchf.jpg", desc: "", url: "https://go.jcn.io/cchfjcn" },
+    { title: "Inkredible Kids", subtitle: "A Family Film", img: "images/inkredible-kids.jpg", desc: "", url: "https://go.jcn.io/IK9avJCN" }
   ];
 
   var grid = document.getElementById("cardGrid");

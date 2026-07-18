@@ -19,7 +19,7 @@
     var i = TITLES.indexOf(item);
     return (
       '<article class="card">' +
-      '  <div class="card__media"><img src="' + item.img + '" alt="' + item.subtitle + '" loading="lazy"></div>' +
+      '  <a class="card__media" href="' + item.url + '" target="_blank" rel="noopener"><img src="' + item.img + '" alt="' + item.subtitle + '" loading="lazy"></a>' +
       '  <h3 class="card__title">' + item.title + '</h3>' +
       '  <p class="card__subtitle">' + item.subtitle + '</p>' +
       '  <div class="card__actions">' +
@@ -54,6 +54,7 @@
   var modalSubtitle = document.getElementById("infoModalSubtitle");
   var modalDesc = document.getElementById("infoModalDesc");
   var modalWatch = document.getElementById("infoModalWatch");
+  var modalMediaLink = document.getElementById("infoModalMediaLink");
 
   function openModal(item) {
     modalImg.src = item.img;
@@ -62,6 +63,7 @@
     modalSubtitle.textContent = item.subtitle;
     modalDesc.textContent = item.desc;
     modalWatch.href = item.url;
+    modalMediaLink.href = item.url;
     modal.classList.add("is-open");
     document.body.style.overflow = "hidden";
   }

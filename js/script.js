@@ -15,15 +15,15 @@
   var track = document.getElementById("carTrack");
 
   function cardHTML(item) {
+    var i = TITLES.indexOf(item);
     return (
       '<article class="card">' +
       '  <div class="card__media"><img src="' + item.img + '" alt="' + item.subtitle + '" loading="lazy"></div>' +
       '  <h3 class="card__title">' + item.title + '</h3>' +
       '  <p class="card__subtitle">' + item.subtitle + '</p>' +
-      '  <p class="card__desc">' + item.desc + '</p>' +
       '  <div class="card__actions">' +
       '    <a class="btn btn-watch" href="' + item.url + '" target="_blank" rel="noopener">Watch</a>' +
-      '    <button class="btn btn-info">More Info</button>' +
+      '    <button class="btn btn-info" data-info="' + i + '">More Info</button>' +
       '  </div>' +
       '</article>'
     );
@@ -44,6 +44,44 @@
 
   renderGrid();
   renderCarousel();
+
+  // ---- More Info modal ----
+  var modal = document.getElementById("infoModal");
+  var modalImg = document.getElementById("infoModalImg");
+  var modalTitle = document.getElementById("infoModalTitle");
+  var modalSubtitle = document.getElementById("infoModalSubtitle");
+  var modalDesc = document.getElementById("infoModalDesc");
+  var modalWatch = document.getElementById("infoModalWatch");
+
+  function openModal(item) {
+    modalImg.src = item.img;
+    modalImg.alt = item.subtitle;
+    modalTitle.textContent = item.title;
+    modalSubtitle.textContent = item.subtitle;
+    modalDesc.textContent = item.desc;
+    modalWatch.href = item.url;
+    modal.classList.add("is-open");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeModal() {
+    modal.classList.remove("is-open");
+    document.body.style.overflow = "";
+  }
+
+  grid.addEventListener("click", function (e) {
+    var btn = e.target.closest(".btn-info");
+    if (!btn) return;
+    var item = TITLES[Number(btn.dataset.info)];
+    if (item) openModal(item);
+  });
+
+  modal.addEventListener("click", function (e) {
+    if (e.target === modal || e.target.closest("[data-close]")) closeModal();
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeModal();
+  });
 
   // ---- Menu toggle (Sort / Contact / About) ----
   var menuToggle = document.getElementById("menuToggle");

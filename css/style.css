@@ -344,6 +344,83 @@ button {
 }
 
 /* =============================================================
+   MORE INFO MODAL
+   ============================================================= */
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 5vh 5vw;
+  background: rgba(6, 14, 18, 0.8);
+  backdrop-filter: blur(3px);
+}
+.modal.is-open { display: flex; }
+
+.modal__dialog {
+  position: relative;
+  width: min(620px, 100%);
+  max-height: 90vh;
+  overflow-y: auto;
+  background: var(--ink-800);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  box-shadow: 0 24px 60px rgba(0,0,0,0.55);
+}
+
+.modal__close {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.8rem;
+  z-index: 2;
+  width: 40px; height: 40px;
+  background: rgba(6,14,18,0.6);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 50%;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+.modal__close:hover { background: rgba(6,14,18,0.9); }
+
+.modal__media img {
+  width: 100%;
+  aspect-ratio: 16/9.3;
+  object-fit: fill;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
+
+.modal__body { padding: 1.6rem 1.8rem 2rem; }
+.modal__title {
+  font-family: var(--heading);
+  font-weight: 800;
+  color: var(--sky-400);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 1.4rem;
+  margin: 0 0 0.2rem;
+}
+.modal__subtitle {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0 0 1rem;
+}
+.modal__desc {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: rgba(255,255,255,0.7);
+  margin: 0 0 1.4rem;
+}
+.modal__body .btn-watch {
+  background: #fff;
+  color: var(--ink-text);
+  padding: 0.6em 1.6em;
+  font-size: 0.8rem;
+}
+
+/* =============================================================
    CONTACT
    ============================================================= */
 .contact {

@@ -10,43 +10,37 @@
 
 <!-- ============ BANNER ============ -->
 <header class="banner" id="cover">
+  <div class="banner__layout">
   <div class="banner__frame">
     <img src="images/welcome-banner.jpg" alt="A Day of Meaning — Tisha B'Av 5786" class="banner__img">
 
     <nav class="banner__nav">
       <a href="#contact" class="btn btn--ghost">Contact Us</a>
-      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="menuPanel" aria-label="Open menu">
-        <span></span><span></span><span></span>
-      </button>
     </nav>
-    <div class="menu-panel" id="menuPanel">
-      <div class="menu-panel__col">
-        <a href="#sort-featured" data-sort="featured">Featured</a>
-        <a href="#sort-newest" data-sort="newest">Newest</a>
-        <a href="#sort-az" data-sort="az">A-Z</a>
-      </div>
-      <div class="menu-panel__col">
-        <a href="#sort" class="menu-panel__label">Sort</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-      </div>
-    </div>
 
     <button class="banner__start" id="startViewing" aria-label="Start viewing"></button>
+  </div>
+
+  <a class="banner__scoop" href="https://thelakewoodscoop.com" target="_blank" rel="noopener">
+    <img src="images/lakewood-scoop.png" alt="The Lakewood Scoop — Find all Lakewood Tisha B'av Programs here">
+  </a>
   </div>
 </header>
 
 <!-- ============ BROWSE ============ -->
 <main class="browse" id="browse">
 
+  <!-- Carousel temporarily disabled
   <div class="carousel" id="carousel">
     <button class="carousel__arrow carousel__arrow--prev" id="carPrev" aria-label="Previous">&#8249;</button>
     <div class="carousel__track" id="carTrack">
-      <!-- slides injected by JS -->
+      slides injected by JS
     </div>
     <button class="carousel__arrow carousel__arrow--next" id="carNext" aria-label="Next">&#8250;</button>
     <span class="carousel__watch-badge">Watch</span>
   </div>
+  end carousel -->
+
 
   <section class="grid" id="cardGrid">
     <!-- cards injected by JS -->
@@ -69,31 +63,19 @@
       <img src="images/logos-lockup.png" alt="Jewish Content Network / ConsultWrite Media" class="contact__logo">
     </div>
 
-    <form class="contact__form" id="contactForm">
-      <label class="field">
-        <span class="field__label">Name</span>
-        <input type="text" name="name" required>
-      </label>
-      <label class="field">
-        <span class="field__label">Email</span>
-        <input type="email" name="email" required>
-      </label>
-      <label class="field">
-        <span class="field__label">Phone</span>
-        <input type="tel" name="phone">
-      </label>
-      <label class="field">
-        <span class="field__label">Inquiry Reason</span>
-        <textarea name="reason" rows="5"></textarea>
-      </label>
-      <button type="submit" class="btn btn--dark btn--send">Send</button>
-      <p class="contact__success" id="contactSuccess" hidden>Thanks — your message has been sent.</p>
-    </form>
+    <div class="contact__embed">
+      <iframe
+        class="contact__embed-frame"
+        src="https://jewishcontentnetwork.com/#form"
+        title="Contact Jewish Content Network"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
   </div>
 
-  <div class="contact__banner">
-    <img src="images/footer-banner.jpg" alt="Jewish Content Network — Bringing your message to the hearts and homes of our nation">
-  </div>
+  <a class="contact__banner" href="https://jewishcontentnetwork.com" target="_blank" rel="noopener">
+    <img src="images/footer-banner-jcn.jpg" alt="Jewish Content Network — Bringing your message to the hearts and homes of our nation">
+  </a>
 </section>
 
 <!-- ============ MORE INFO MODAL ============ -->

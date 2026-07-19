@@ -5,9 +5,9 @@
   var TITLES = [
     { title: "Project Inspire", subtitle: "The Unlikely Village", img: "images/project-inspire.jpg", desc: "", trailer: "https://vimeo.com/1207875700", url: "https://content.jcn.io/pi9avjcn" },
     { title: "Meaningful Minute", subtitle: "Neighbors", img: "images/meaningful-minute.jpg", desc: "", url: "https://content.jcn.io/mmjcn" },
-    { title: "Aish", subtitle: "Terror.  Meet the Heroes", img: "images/aish.jpg", desc: "", url: "https://content.jcn.io/aish9avdom" },
+    { title: "Aish", subtitle: "Terror.  Meet the Heroes", img: "images/aish.jpg", desc: "", trailer: "https://www.youtube.com/watch?v=JXMc4vVbEj8", url: "https://content.jcn.io/aish9avdom" },
     { title: "Ohr Naava", subtitle: "Just One Brick", img: "images/ohr-naava.jpg", desc: "", url: "https://content.jcn.io/onjcn" },
-    { title: "Chofetz Chaim Heritage Foundation", subtitle: "Hidden", img: "images/cchf.jpg", desc: "", url: "https://content.jcn.io/cchfjcn" },
+    { title: "Chofetz Chaim Heritage Foundation", subtitle: "Hidden", img: "images/cchf.jpg",trailer: "https://vimeo.com/1206602217/63bf679855", desc: "", url: "https://content.jcn.io/cchfjcn" },
     { title: "Torah Anytime", subtitle: "25 Life Changing Hours", img: "images/torah-anytime.jpg", desc: "", url: "https://content.jcn.io/ta9av" },
     { title: "Inkredible Kids", subtitle: "A Family Film", img: "images/inkredible-kids.jpg", desc: "", url: "https://content.jcn.io/IK9avJCN", trailer: "https://video.wixstatic.com/video/cf0571_b5347004d865462285d2db488279b02c/2160p/mp4/file.mp4" },
     { title: "The Lakewood Scoop", subtitle: "Tisha B'Av Program", img: "images/lakewood-scoop.jpg", desc: "", url: "https://thelakewoodscoop.com" }

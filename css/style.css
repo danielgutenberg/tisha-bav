@@ -380,6 +380,32 @@ button {
   border-radius: var(--radius-md) var(--radius-md) 0 0;
 }
 
+/* Trailer variant */
+.modal__media--trailer {
+  background: #000;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  overflow: hidden;
+}
+.modal__trailer-label {
+  margin: 0;
+  padding: 0.7rem 1rem;
+  font-family: var(--heading);
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1;
+}
+.modal__video-wrap { line-height: 0; }
+.modal__video {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: 0;
+  display: block;
+  background: #000;
+}
+
 .modal__body { padding: 1.6rem 1.8rem 2rem; }
 .modal__title {
   font-family: var(--heading);

@@ -76,7 +76,11 @@
     }
     var vm = url.match(/vimeo\.com\/(?:video\/)?(\d+)/);
     if (vm) {
-      return '<iframe class="modal__video" src="https://player.vimeo.com/video/' + vm[1] +
+      var id = vm[1];
+      // Preserve the private-video hash from either vimeo.com/ID/HASH or ?h=HASH
+      var hash = (url.match(/[?&]h=([\w-]+)/) || url.match(new RegExp("vimeo\\.com/(?:video/)?" + id + "/([\\w-]+)")) || [])[1];
+      var src = "https://player.vimeo.com/video/" + id + (hash ? "?h=" + hash : "");
+      return '<iframe class="modal__video" src="' + src +
         '" title="Trailer" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>';
     }
     return '<video class="modal__video" src="' + escapeAttr(url) + '" controls playsinline preload="metadata"></video>';

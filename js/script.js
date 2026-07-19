@@ -9,7 +9,8 @@
     { title: "Ohr Naava", subtitle: "Just One Brick", img: "images/ohr-naava.jpg", desc: "", url: "https://content.jcn.io/onjcn" },
     { title: "Chofetz Chaim Heritage Foundation", subtitle: "Hidden", img: "images/cchf.jpg", desc: "", url: "https://content.jcn.io/cchfjcn" },
     { title: "Torah Anytime", subtitle: "25 Life Changing Hours", img: "images/torah-anytime.jpg", desc: "", url: "https://content.jcn.io/ta9av" },
-    { title: "Inkredible Kids", subtitle: "A Family Film", img: "images/inkredible-kids.jpg", desc: "", url: "https://content.jcn.io/IK9avJCN" }
+    { title: "Inkredible Kids", subtitle: "A Family Film", img: "images/inkredible-kids.jpg", desc: "", url: "https://content.jcn.io/IK9avJCN" },
+    { title: "The Lakewood Scoop", subtitle: "Tisha B'Av Program", img: "images/lakewood-scoop.jpg", desc: "", url: "https://thelakewoodscoop.com" }
   ];
 
   var grid = document.getElementById("cardGrid");

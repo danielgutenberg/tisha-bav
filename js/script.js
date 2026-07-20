@@ -8,7 +8,7 @@
     { title: "Aish", subtitle: "While We Were Celebrating", img: "images/aish.jpg", desc: "", trailer: "https://www.youtube.com/watch?v=JXMc4vVbEj8", url: "https://content.jcn.io/aish9avdom" },
     { title: "Ohr Naava", subtitle: "Just One Brick", img: "images/ohr-naava.jpg", desc: "", trailer: "https://vimeo.com/1211382238", url: "https://content.jcn.io/onjcn" },
     { title: "Torah Anytime", subtitle: "25 Life Changing Hours", img: "images/torah-anytime.png", desc: "", url: "https://content.jcn.io/ta9av" },
-    { title: "Shuvu", subtitle: "Rav Pam - The Heart of a Nation", img: "images/shuvu.jpg", desc: "", url: "https://content.jcn.io/shuvu9avdom" },
+    { title: "Shuvu", subtitle: "Rav Pam ZT”L: The Heart of a Nation", img: "images/shuvu.jpg", desc: "", url: "https://content.jcn.io/shuvu9avdom" },
     { title: "Chofetz Chaim Heritage Foundation", subtitle: "Hidden", img: "images/cchf.jpg",trailer: "https://vimeo.com/1206602217/63bf679855", desc: "", url: "https://content.jcn.io/cchfjcn" },
     { title: "Inkredible Kids", subtitle: "A Family Film", img: "images/inkredible-kids.jpg", desc: "", url: "https://content.jcn.io/IK9avJCN", trailer: "https://video.wixstatic.com/video/cf0571_b5347004d865462285d2db488279b02c/2160p/mp4/file.mp4" },
     { title: "The Lakewood Scoop", subtitle: "Tisha B'Av Program", img: "images/lakewood-scoop.jpg", desc: "", url: "https://thelakewoodscoop.com" }

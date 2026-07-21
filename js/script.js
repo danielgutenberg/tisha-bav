@@ -86,6 +86,11 @@
       return '<iframe class="modal__video" src="' + src +
         '" title="Trailer" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>';
     }
+    var ig = url.match(/instagram\.com\/(?:reels?|p|tv)\/([\w-]+)/);
+    if (ig) {
+      return '<iframe class="modal__video modal__video--ig" src="https://www.instagram.com/reel/' + ig[1] +
+        '/embed" title="Trailer" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen scrolling="no"></iframe>';
+    }
     return '<video class="modal__video" src="' + escapeAttr(url) + '" controls playsinline preload="metadata"></video>';
   }
 

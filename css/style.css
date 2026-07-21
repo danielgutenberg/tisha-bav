@@ -412,6 +412,14 @@ button {
   display: block;
   background: #000;
 }
+/* Instagram reels are vertical and include post chrome — give them room */
+.modal__video--ig {
+  aspect-ratio: 9/16;
+  max-width: 400px;
+  max-height: 78vh;
+  margin: 0 auto;
+  background: #fff;
+}
 
 .modal__body { padding: 1.6rem 1.8rem 2rem; }
 .modal__title {

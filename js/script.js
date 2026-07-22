@@ -16,6 +16,7 @@
     { title: "Netzoir", subtitle: "Rebuild with Every Word", img: "images/netzoir.jpg", desc: "", url: "https://content.jcn.io/16Nrmv", trailer: "" },
     { title: "OU", subtitle: "A Tisha B'av of Meaning and Hope", img: "images/ou.jpg", desc: "", url: "https://content.jcn.io/ou9av", trailer: "" },
     { title: "Chazaq x Amudim", subtitle: "Tisha B’av Marathon", img: "images/chazaq.jpg", desc: "", url: "https://content.jcn.io/chazaq9av", trailer: "" },
+    { title: "BRS", subtitle: "From Grudges to Geulah", img: "images/brs.jpg", desc: "", url: "https://content.jcn.io/brs9av", trailer: "" },
     { title: "The Lakewood Scoop", subtitle: "Tisha B'Av Program", img: "images/lakewood-scoop.jpg", desc: "", url: "https://thelakewoodscoop.com" }
   ];
 

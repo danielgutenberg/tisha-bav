@@ -25,7 +25,7 @@
     { title: "Camp Agudah Midwest", subtitle: "Telephone Kinus Hookup", img: "images/agudah.jpg", desc: "", url: "", trailer: "" },
     { title: "Holy Smokes", subtitle: "The Untold Story of the Man Who Found the Ketores", img: "images/hashkifa.jpg", desc: "", url: "https://content.jcn.io/oya9a8", trailer: "" },
     { title: "Yeshiva Beth Yehuda", subtitle: "Kinnos Explained with Rabbi Gershon Miller", img: "images/yby.jpg", desc: "", url: "https://content.jcn.io/dD3l8h", trailer: "" },
-    { title: "TISHA B'AV SPECIAL", subtitle: "Water Source of Holy Temple Discovered in Judea", img: "images/pools.jpg", desc: "", url: "https://content.jcn.io/6Y9sHv", trailer: "" },
+    { title: "Yishai Fleisher Presents", subtitle: "Water Source of Holy Temple Discovered in Judea", img: "images/pools.jpg", desc: "", url: "https://content.jcn.io/6Y9sHv", trailer: "" },
   ];
 
   var grid = document.getElementById("cardGrid");

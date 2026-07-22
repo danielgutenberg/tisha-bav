@@ -29,6 +29,7 @@
     { title: "Holy Smokes", subtitle: "The Untold Story of the Man Who Found the Ketores", img: "images/hashkifa.jpg", desc: "", url: "https://content.jcn.io/oya9a8", trailer: "" },
     { title: "Chesed 24/7", subtitle: "Pull Strings for Cholim", img: "images/pull-strings.png", desc: "", url: "https://content.jcn.io/GF7lki", trailer: "" },
     { title: "Beyond the Wall", subtitle: "The Call of Geulah", img: "images/beyond-wall.jpg", desc: "", url: "https://content.jcn.io/swHMWr", trailer: "" },
+    { title: "Areyvut", subtitle: "Download A Practical Guide for the Nine Days…and Beyond", img: "images/areyvut.jpg", desc: "", url: "https://content.jcn.io/4sMNft", btnText: "Download Here" },
   ];
 
   var grid = document.getElementById("cardGrid");

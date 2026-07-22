@@ -26,6 +26,8 @@
     { title: "Rabbi Yechiel Spero", subtitle: "The Siddur That Spoke", img: "images/yechiel-spero.jpg", desc: "", url: "https://content.jcn.io/alKr9Y", trailer: "" },
     { title: "Camp Agudah Midwest", subtitle: "Telephone Kinus Hookup", img: "images/agudah.jpg", desc: "", url: "", trailer: "" },
     { title: "Holy Smokes", subtitle: "The Untold Story of the Man Who Found the Ketores", img: "images/hashkifa.jpg", desc: "", url: "https://content.jcn.io/oya9a8", trailer: "" },
+    { title: "Chesed 24/7", subtitle: "Pull Strings for Cholim", img: "images/pull-strings.png", desc: "", url: "https://content.jcn.io/GF7lki", trailer: "" },
+    { title: "Beyond the Wall", subtitle: "The Call of Geulah", img: "images/beyond-wall.jpg", desc: "", url: "https://content.jcn.io/swHMWr", trailer: "" },
   ];
 
   var grid = document.getElementById("cardGrid");

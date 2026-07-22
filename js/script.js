@@ -5,19 +5,22 @@
   var TITLES = [
     { title: "Project Inspire", subtitle: "The Unlikely Village", img: "images/project-inspire.jpg", desc: "", trailer: "https://vimeo.com/1207875700", url: "https://content.jcn.io/pi9avjcn" },
     { title: "Meaningful Minute", subtitle: "Neighbors", img: "images/meaningful-minute.jpg", desc: "", trailer: "https://vimeo.com/1211448347", url: "https://content.jcn.io/mmjcn" },
-    { title: "Aish", subtitle: "While We Were Celebrating", img: "images/aish.jpg", desc: "", trailer: "https://www.youtube.com/watch?v=JXMc4vVbEj8", url: "https://content.jcn.io/aish9avdom" },
+    { title: "Aish", subtitle: "While We Were Celebrating", img: "images/aish-tisha.png", desc: "", trailer: "https://www.youtube.com/watch?v=JXMc4vVbEj8", url: "https://content.jcn.io/aish9avdom" },
     { title: "Ohr Naava", subtitle: "Just One Brick", img: "images/ohr-naava.jpg", desc: "", trailer: "https://vimeo.com/1211382238", url: "https://content.jcn.io/onjcn" },
     { title: "Torah Anytime", subtitle: "25 Life Changing Hours", img: "images/ta.png", desc: "", url: "https://content.jcn.io/ta9av" },
     { title: "Shuvu", subtitle: "Rav Pam ZT”L: The Heart of a Nation", img: "images/shuvu.jpg", desc: "", url: "https://content.jcn.io/shuvu9avdom" },
     { title: "Chofetz Chaim Heritage Foundation", subtitle: "Hidden", img: "images/cchf.jpg",trailer: "https://vimeo.com/1206602217/63bf679855", desc: "", url: "https://content.jcn.io/cchfjcn" },
     { title: "Inkredible Kids", subtitle: "A Family Film", img: "images/inkredible-kids.jpg", desc: "", url: "https://content.jcn.io/IK9avJCN", trailer: "https://video.wixstatic.com/video/cf0571_b5347004d865462285d2db488279b02c/2160p/mp4/file.mp4" },
     { title: "The Circle", subtitle: "Captive City", img: "images/circle-mag.jpg", desc: "", url: "https://content.jcn.io/XhYai9", trailer: "https://circmag.com/wp-content/uploads/2026/07/Trailer-Updated_3.mp4" },
+    { title: "The Lakewood Scoop", subtitle: "Tisha B'Av Program", img: "images/lakewood-scoop.jpg", desc: "", url: "https://thelakewoodscoop.com" },
     { title: "Living L'Chaim", subtitle: "Letting Go", img: "images/living-lchaim.jpg", desc: "", url: "https://content.jcn.io/Pncwvr", trailer: "https://www.instagram.com/reels/Da9OVCCxn3U/" },
     { title: "Netzoir", subtitle: "Rebuild with Every Word", img: "images/netzoir.jpg", desc: "", url: "https://content.jcn.io/16Nrmv", trailer: "" },
     { title: "OU", subtitle: "A Tisha B'av of Meaning and Hope", img: "images/ou.jpg", desc: "", url: "https://content.jcn.io/ou9av", trailer: "" },
     { title: "Chazaq x Amudim", subtitle: "Tisha B’av Marathon", img: "images/chazaq.jpg", desc: "", url: "https://content.jcn.io/chazaq9av", trailer: "" },
     { title: "BRS", subtitle: "From Grudges to Geulah", img: "images/brs.jpg", desc: "", url: "https://content.jcn.io/brs9av", trailer: "" },
-    { title: "The Lakewood Scoop", subtitle: "Tisha B'Av Program", img: "images/lakewood-scoop.jpg", desc: "", url: "https://thelakewoodscoop.com" }
+    { title: "BJX", subtitle: "Life Savers", img: "images/bjx.jpg", desc: "", url: "https://content.jcn.io/bjx9av", trailer: "" },
+    { title: "Rabbi Yechiel Spero", subtitle: "The Siddur That Spoke", img: "images/yechiel-spero.jpg", desc: "", url: "https://content.jcn.io/alKr9Y", trailer: "https://d10xsoss226fg9.cloudfront.net/y0oJM89D8PKlGGzt8WsK1gaxE11LkpEp/F00F0B61022FC928F0340F2EE0784452/vl/2f84ec70f81846abbff9c47bb7766df8/TheSiddurThatSpokeofficialtrailer-1784232288.mp4" },
+    { title: "Toveedo", subtitle: "The Keeper of the Keilim", img: "images/toveedo.jpg", desc: "", url: "https://content.jcn.io/SjCSPN", trailer: "" },
   ];
 
   var grid = document.getElementById("cardGrid");

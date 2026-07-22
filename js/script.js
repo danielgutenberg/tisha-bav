@@ -20,11 +20,12 @@
     { title: "BRS", subtitle: "From Grudges to Geulah", img: "images/brs.jpg", desc: "", url: "https://content.jcn.io/brs9av", trailer: "" },
     { title: "BJX", subtitle: "Life Savers", img: "images/bjx.jpg", desc: "", url: "https://content.jcn.io/bjx9av", trailer: "" },
     { title: "Rabbi Yechiel Spero", subtitle: "The Siddur That Spoke", img: "images/yechiel-spero.jpg", desc: "", url: "https://content.jcn.io/alKr9Y", trailer: "" },
-    { title: "Toveedo", subtitle: "The Keeper of the Keilim", img: "images/keeper.jpg", desc: "", url: "https://content.jcn.io/SjCSPN", trailer: "" },
+    { title: "Toveedo", subtitle: "The Keeper of the Keilim", img: "images/keeper.jpg", desc: "", url: "https://content.jcn.io/SjCSPN", trailer: "https://www.youtube.com/watch?app=desktop&v=7Lez5wFeiPk&ra=m" },
     { title: "The Loop", subtitle: "Listen! Laugh! Learn!", img: "images/loop.jpg", desc: "", url: "https://content.jcn.io/A0fgVm", trailer: "" },
     { title: "Camp Agudah Midwest", subtitle: "Telephone Kinus Hookup", img: "images/agudah.jpg", desc: "", url: "", trailer: "" },
     { title: "Holy Smokes", subtitle: "The Untold Story of the Man Who Found the Ketores", img: "images/hashkifa.jpg", desc: "", url: "https://content.jcn.io/oya9a8", trailer: "" },
     { title: "Yeshiva Beth Yehuda", subtitle: "Kinnos Explained with Rabbi Gershon Miller", img: "images/yby.jpg", desc: "", url: "https://content.jcn.io/dD3l8h", trailer: "" },
+    { title: "TISHA B'AV SPECIAL", subtitle: "Water Source of Holy Temple Discovered in Judea", img: "images/pools.jpg", desc: "", url: "https://content.jcn.io/6Y9sHv", trailer: "" },
   ];
 
   var grid = document.getElementById("cardGrid");

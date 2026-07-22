@@ -12,7 +12,7 @@
     { title: "Chofetz Chaim Heritage Foundation", subtitle: "Hidden", img: "images/cchf.jpg",trailer: "https://vimeo.com/1206602217/63bf679855", desc: "", url: "https://content.jcn.io/cchfjcn" },
     { title: "Inkredible Kids", subtitle: "A Family Film", img: "images/inkredible-kids.jpg", desc: "", url: "https://content.jcn.io/IK9avJCN", trailer: "https://video.wixstatic.com/video/cf0571_b5347004d865462285d2db488279b02c/2160p/mp4/file.mp4" },
     { title: "The Circle", subtitle: "Captive City", img: "images/circle-mag.jpg", desc: "", url: "https://content.jcn.io/XhYai9", trailer: "https://circmag.com/wp-content/uploads/2026/07/Trailer-Updated_3.mp4" },
-    { title: "The Lakewood Scoop", subtitle: "Tisha B'Av Program", img: "images/lakewood-scoop.jpg", desc: "", url: "https://content.jcn.io/LonCXr" },
+    { title: "The Lakewood Scoop", subtitle: "Local Tisha B’av Events", img: "images/lakewood-scoop.jpg", desc: "", url: "https://content.jcn.io/LonCXr" },
     { title: "Living L'Chaim", subtitle: "Letting Go", img: "images/living-lchaim.jpg", desc: "", url: "https://content.jcn.io/Pncwvr", trailer: "https://www.instagram.com/reels/Da9OVCCxn3U/" },
     { title: "Netzoir", subtitle: "Rebuild with Every Word", img: "images/netzoir.jpg", desc: "", url: "https://content.jcn.io/16Nrmv", trailer: "" },
     { title: "OU", subtitle: "A Tisha B'av of Meaning and Hope", img: "images/ou.jpg", desc: "", url: "https://content.jcn.io/ou9av", trailer: "" },

@@ -12,7 +12,7 @@
     { title: "Chofetz Chaim Heritage Foundation", subtitle: "Hidden", img: "images/cchf.jpg",trailer: "https://vimeo.com/1206602217/63bf679855", desc: "", url: "https://content.jcn.io/cchfjcn" },
     { title: "Inkredible Kids", subtitle: "A Family Film", img: "images/inkredible-kids.jpg", desc: "", url: "https://content.jcn.io/IK9avJCN", trailer: "https://video.wixstatic.com/video/cf0571_b5347004d865462285d2db488279b02c/2160p/mp4/file.mp4" },
     { title: "The Circle", subtitle: "Captive City", img: "images/circle-mag.jpg", desc: "", url: "https://content.jcn.io/XhYai9", trailer: "https://circmag.com/wp-content/uploads/2026/07/Trailer-Updated_3.mp4" },
-    { title: "The Lakewood Scoop", subtitle: "Tisha B'Av Program", img: "images/lakewood-scoop.jpg", desc: "", url: "https://thelakewoodscoop.com" },
+    { title: "The Lakewood Scoop", subtitle: "Tisha B'Av Program", img: "images/lakewood-scoop.jpg", desc: "", url: "https://content.jcn.io/LonCXr" },
     { title: "Living L'Chaim", subtitle: "Letting Go", img: "images/living-lchaim.jpg", desc: "", url: "https://content.jcn.io/Pncwvr", trailer: "https://www.instagram.com/reels/Da9OVCCxn3U/" },
     { title: "Netzoir", subtitle: "Rebuild with Every Word", img: "images/netzoir.jpg", desc: "", url: "https://content.jcn.io/16Nrmv", trailer: "" },
     { title: "OU", subtitle: "A Tisha B'av of Meaning and Hope", img: "images/ou.jpg", desc: "", url: "https://content.jcn.io/ou9av", trailer: "" },
@@ -21,6 +21,7 @@
     { title: "BJX", subtitle: "Life Savers", img: "images/bjx.jpg", desc: "", url: "https://content.jcn.io/bjx9av", trailer: "" },
     { title: "Rabbi Yechiel Spero", subtitle: "The Siddur That Spoke", img: "images/yechiel-spero.jpg", desc: "", url: "https://content.jcn.io/alKr9Y", trailer: "https://d10xsoss226fg9.cloudfront.net/y0oJM89D8PKlGGzt8WsK1gaxE11LkpEp/F00F0B61022FC928F0340F2EE0784452/vl/2f84ec70f81846abbff9c47bb7766df8/TheSiddurThatSpokeofficialtrailer-1784232288.mp4" },
     { title: "Toveedo", subtitle: "The Keeper of the Keilim", img: "images/toveedo.jpg", desc: "", url: "https://content.jcn.io/SjCSPN", trailer: "" },
+    { title: "The Loop", subtitle: "Listen! Laugh! Learn!", img: "images/loop.jpg", desc: "", url: "https://content.jcn.io/A0fgVm", trailer: "" },
   ];
 
   var grid = document.getElementById("cardGrid");

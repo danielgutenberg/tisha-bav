@@ -12,8 +12,8 @@
     { title: "Chofetz Chaim Heritage Foundation", subtitle: "Hidden", img: "images/cchf.jpg",trailer: "https://vimeo.com/1206602217/63bf679855", desc: "", url: "https://content.jcn.io/cchfjcn" },
     { title: "Inkredible Kids", subtitle: "A Family Film", img: "images/inkredible-kids.jpg", desc: "", url: "https://content.jcn.io/IK9avJCN", trailer: "https://video.wixstatic.com/video/cf0571_b5347004d865462285d2db488279b02c/2160p/mp4/file.mp4" },
     { title: "The Circle", subtitle: "Captive City", img: "images/circle-mag.jpg", desc: "", url: "https://content.jcn.io/XhYai9", trailer: "https://circmag.com/wp-content/uploads/2026/07/Trailer-Updated_3.mp4" },
-    { title: "The Lakewood Scoop", subtitle: "Local Tisha B’av Events", img: "images/lakewood-scoop.jpg", desc: "", url: "https://content.jcn.io/LonCXr" },
-    { title: "Artscroll", subtitle: "Free Tisha B'av Downloads", img: "images/artscroll.jpg", desc: "", url: "https://content.jcn.io/KlLwqF" },
+    { title: "The Lakewood Scoop", subtitle: "Local Tisha B’av Events", img: "images/lakewood-scoop.jpg", desc: "", url: "https://content.jcn.io/LonCXr", btnText: "More Info" },
+    { title: "Artscroll", subtitle: "Free Tisha B'av Downloads", img: "images/artscroll.jpg", desc: "", url: "https://content.jcn.io/KlLwqF", btnText: "Download Here" },
     { title: "Living L'Chaim", subtitle: "Letting Go", img: "images/living-lchaim.jpg", desc: "", url: "https://content.jcn.io/Pncwvr", trailer: "https://www.instagram.com/reels/Da9OVCCxn3U/" },
     { title: "Netzoir", subtitle: "Rebuild with Every Word", img: "images/netzoir-3.jpg", desc: "", url: "https://content.jcn.io/16Nrmv", trailer: "" },
     { title: "OU", subtitle: "A Tisha B'av of Meaning and Hope", img: "images/ou.jpg", desc: "", url: "https://content.jcn.io/ou9av", trailer: "" },
@@ -51,8 +51,9 @@
     var media = item.url
       ? '  <a class="card__media" href="' + item.url + '" ' + LINK_ATTR + '><img src="' + item.img + '" alt="' + item.subtitle + '" loading="lazy"></a>'
       : '  <div class="card__media"><img src="' + item.img + '" alt="' + item.subtitle + '" loading="lazy"></div>';
+    var btnLabel = item.btnText || "Watch";
     var watchBtn = item.url
-      ? '    <a class="btn btn-watch" href="' + item.url + '" ' + LINK_ATTR + '>Watch</a>'
+      ? '    <a class="btn btn-watch" href="' + item.url + '" ' + LINK_ATTR + '>' + btnLabel + '</a>'
       : '';
     return (
       '<article class="card">' +
@@ -139,6 +140,7 @@
     modalDesc.hidden = !item.desc;
     modalWatch.href = item.url || "#";
     modalWatch.hidden = !item.url;
+    modalWatch.textContent = item.btnText || "Watch";
     if (SAME_TAB) modalWatch.removeAttribute("target");
     else modalWatch.setAttribute("target", "_blank");
     modal.classList.add("is-open");

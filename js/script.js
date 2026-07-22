@@ -15,7 +15,7 @@
     { title: "The Lakewood Scoop", subtitle: "Local Tisha B’av Events", img: "images/lakewood-scoop.jpg", desc: "", url: "https://content.jcn.io/LonCXr" },
     { title: "Artscroll", subtitle: "Free Tisha B'av Downloads", img: "images/artscroll.jpg", desc: "", url: "https://content.jcn.io/KlLwqF" },
     { title: "Living L'Chaim", subtitle: "Letting Go", img: "images/living-lchaim.jpg", desc: "", url: "https://content.jcn.io/Pncwvr", trailer: "https://www.instagram.com/reels/Da9OVCCxn3U/" },
-    { title: "Netzoir", subtitle: "Rebuild with Every Word", img: "images/netzoir-2.jpg", desc: "", url: "https://content.jcn.io/16Nrmv", trailer: "" },
+    { title: "Netzoir", subtitle: "Rebuild with Every Word", img: "images/netzoir-3.jpg", desc: "", url: "https://content.jcn.io/16Nrmv", trailer: "" },
     { title: "OU", subtitle: "A Tisha B'av of Meaning and Hope", img: "images/ou.jpg", desc: "", url: "https://content.jcn.io/ou9av", trailer: "" },
     { title: "Chazaq x Amudim", subtitle: "Tisha B’av Marathon", img: "images/chazaq.jpg", desc: "", url: "https://content.jcn.io/chazaq9av", trailer: "" },
     { title: "Yishai Fleisher Presents", subtitle: "Water Source of Holy Temple Discovered in Judea", img: "images/pools.jpg", desc: "", url: "https://content.jcn.io/6Y9sHv", trailer: "" },

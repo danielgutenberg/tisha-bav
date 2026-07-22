@@ -14,6 +14,8 @@
     { title: "The Circle", subtitle: "Captive City", img: "images/circle-mag.jpg", desc: "", url: "https://content.jcn.io/XhYai9", trailer: "https://circmag.com/wp-content/uploads/2026/07/Trailer-Updated_3.mp4" },
     { title: "Living L'Chaim", subtitle: "Letting Go", img: "images/living-lchaim.jpg", desc: "", url: "https://content.jcn.io/Pncwvr", trailer: "https://www.instagram.com/reels/Da9OVCCxn3U/" },
     { title: "Netzoir", subtitle: "Rebuild with Every Word", img: "images/netzoir.jpg", desc: "", url: "https://content.jcn.io/16Nrmv", trailer: "" },
+    { title: "OU", subtitle: "A Tisha B'av of Meaning and Hope", img: "images/ou.jpg", desc: "", url: "https://content.jcn.io/ou9av", trailer: "" },
+    { title: "Chazaq x Amudim", subtitle: "Tisha B’av Marathon", img: "images/chazaq.jpg", desc: "", url: "https://content.jcn.io/chazaq9av", trailer: "" },
     { title: "The Lakewood Scoop", subtitle: "Tisha B'Av Program", img: "images/lakewood-scoop.jpg", desc: "", url: "https://thelakewoodscoop.com" }
   ];
 

@@ -30,7 +30,7 @@
     { title: "Chesed 24/7", subtitle: "Pull Strings for Cholim", img: "images/pull-strings.png", desc: "", url: "https://content.jcn.io/GF7lki", trailer: "" },
     { title: "Beyond the Wall", subtitle: "The Call of Geulah", img: "images/beyond-wall.jpg", desc: "", url: "https://content.jcn.io/swHMWr", trailer: "" },
     { title: "Areyvut", subtitle: "Download A Practical Guide for the Nine Days…and Beyond", img: "images/areyvut.jpg", desc: "", url: "https://content.jcn.io/4sMNft", btnText: "Download Here" },
-    { title: "Yad L'Achim", subtitle: "Still Standing", img: "images/yad-lachim.jpg", desc: "", url: "https://content.jcn.io/lLVfr6", trailer: ""},
+    { title: "Yad L'Achim", subtitle: "Still Standing", img: "images/yad-lachim.jpg", desc: "", url: "https://content.jcn.io/lLVfr6", trailer: "https://yadfilms.com/wp-content/uploads/2026/07/StillStandingPromo_2_Seltzer.mp4"},
   ];
 
   var grid = document.getElementById("cardGrid");

@@ -19,7 +19,7 @@
     { title: "Chazaq x Amudim", subtitle: "Tisha B’av Marathon", img: "images/chazaq.jpg", desc: "", url: "https://content.jcn.io/chazaq9av", trailer: "" },
     { title: "BRS", subtitle: "From Grudges to Geulah", img: "images/brs.jpg", desc: "", url: "https://content.jcn.io/brs9av", trailer: "" },
     { title: "BJX", subtitle: "Life Savers", img: "images/bjx.jpg", desc: "", url: "https://content.jcn.io/bjx9av", trailer: "" },
-    { title: "Rabbi Yechiel Spero", subtitle: "The Siddur That Spoke", img: "images/yechiel-spero.jpg", desc: "", url: "https://content.jcn.io/alKr9Y", trailer: "https://d10xsoss226fg9.cloudfront.net/y0oJM89D8PKlGGzt8WsK1gaxE11LkpEp/F00F0B61022FC928F0340F2EE0784452/vl/2f84ec70f81846abbff9c47bb7766df8/TheSiddurThatSpokeofficialtrailer-1784232288.mp4" },
+    { title: "Rabbi Yechiel Spero", subtitle: "The Siddur That Spoke", img: "images/yechiel-spero.jpg", desc: "", url: "https://content.jcn.io/alKr9Y", trailer: "" },
     { title: "Toveedo", subtitle: "The Keeper of the Keilim", img: "images/keeper.jpg", desc: "", url: "https://content.jcn.io/SjCSPN", trailer: "" },
     { title: "The Loop", subtitle: "Listen! Laugh! Learn!", img: "images/loop.jpg", desc: "", url: "https://content.jcn.io/A0fgVm", trailer: "" },
   ];

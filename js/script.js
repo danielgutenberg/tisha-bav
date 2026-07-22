@@ -22,6 +22,9 @@
     { title: "Rabbi Yechiel Spero", subtitle: "The Siddur That Spoke", img: "images/yechiel-spero.jpg", desc: "", url: "https://content.jcn.io/alKr9Y", trailer: "" },
     { title: "Toveedo", subtitle: "The Keeper of the Keilim", img: "images/keeper.jpg", desc: "", url: "https://content.jcn.io/SjCSPN", trailer: "" },
     { title: "The Loop", subtitle: "Listen! Laugh! Learn!", img: "images/loop.jpg", desc: "", url: "https://content.jcn.io/A0fgVm", trailer: "" },
+    { title: "Camp Agudah Midwest", subtitle: "Telephone Kinus Hookup", img: "images/agudah.jpg", desc: "", url: "", trailer: "" },
+    { title: "Holy Smokes", subtitle: "The Untold Story of the Man Who Found the Ketores", img: "images/hashkifa.jpg", desc: "", url: "https://content.jcn.io/oya9a8", trailer: "" },
+    { title: "Yeshiva Beth Yehuda", subtitle: "Kinnos Explained with Rabbi Gershon Miller", img: "images/yby.jpg", desc: "", url: "https://content.jcn.io/dD3l8h", trailer: "" },
   ];
 
   var grid = document.getElementById("cardGrid");
@@ -41,13 +44,19 @@
     var infoBtn = hasMoreInfo(item)
       ? '    <button class="btn btn-info" data-info="' + i + '">More Info</button>'
       : '';
+    var media = item.url
+      ? '  <a class="card__media" href="' + item.url + '" ' + LINK_ATTR + '><img src="' + item.img + '" alt="' + item.subtitle + '" loading="lazy"></a>'
+      : '  <div class="card__media"><img src="' + item.img + '" alt="' + item.subtitle + '" loading="lazy"></div>';
+    var watchBtn = item.url
+      ? '    <a class="btn btn-watch" href="' + item.url + '" ' + LINK_ATTR + '>Watch</a>'
+      : '';
     return (
       '<article class="card">' +
-      '  <a class="card__media" href="' + item.url + '" ' + LINK_ATTR + '><img src="' + item.img + '" alt="' + item.subtitle + '" loading="lazy"></a>' +
+      media +
       '  <h3 class="card__title">' + item.title + '</h3>' +
       '  <p class="card__subtitle">' + item.subtitle + '</p>' +
       '  <div class="card__actions">' +
-      '    <a class="btn btn-watch" href="' + item.url + '" ' + LINK_ATTR + '>Watch</a>' +
+      watchBtn +
       infoBtn +
       '  </div>' +
       '</article>'
@@ -115,15 +124,17 @@
         '<div class="modal__video-wrap">' + trailerEmbedHTML(item.trailer) + '</div>';
     } else {
       modalMedia.className = "modal__media";
-      modalMedia.innerHTML =
-        '<a href="' + escapeAttr(item.url) + '" ' + LINK_ATTR + '>' +
-        '<img src="' + escapeAttr(item.img) + '" alt="' + escapeAttr(item.subtitle) + '"></a>';
+      var poster = '<img src="' + escapeAttr(item.img) + '" alt="' + escapeAttr(item.subtitle) + '">';
+      modalMedia.innerHTML = item.url
+        ? '<a href="' + escapeAttr(item.url) + '" ' + LINK_ATTR + '>' + poster + '</a>'
+        : poster;
     }
     modalTitle.textContent = item.title;
     modalSubtitle.textContent = item.subtitle;
     modalDesc.textContent = item.desc || "";
     modalDesc.hidden = !item.desc;
-    modalWatch.href = item.url;
+    modalWatch.href = item.url || "#";
+    modalWatch.hidden = !item.url;
     if (SAME_TAB) modalWatch.removeAttribute("target");
     else modalWatch.setAttribute("target", "_blank");
     modal.classList.add("is-open");

@@ -27,6 +27,11 @@
   var grid = document.getElementById("cardGrid");
   var track = document.getElementById("carTrack");
 
+  // On touch/mobile devices, open Watch links in the SAME tab so the browser
+  // Back button returns to this page. On desktop, keep opening in a new tab.
+  var SAME_TAB = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
+  var LINK_ATTR = SAME_TAB ? 'rel="noopener"' : 'target="_blank" rel="noopener"';
+
   function hasMoreInfo(item) {
     return Boolean(item.trailer || item.desc);
   }
@@ -38,11 +43,11 @@
       : '';
     return (
       '<article class="card">' +
-      '  <a class="card__media" href="' + item.url + '" target="_blank" rel="noopener"><img src="' + item.img + '" alt="' + item.subtitle + '" loading="lazy"></a>' +
+      '  <a class="card__media" href="' + item.url + '" ' + LINK_ATTR + '><img src="' + item.img + '" alt="' + item.subtitle + '" loading="lazy"></a>' +
       '  <h3 class="card__title">' + item.title + '</h3>' +
       '  <p class="card__subtitle">' + item.subtitle + '</p>' +
       '  <div class="card__actions">' +
-      '    <a class="btn btn-watch" href="' + item.url + '" target="_blank" rel="noopener">Watch</a>' +
+      '    <a class="btn btn-watch" href="' + item.url + '" ' + LINK_ATTR + '>Watch</a>' +
       infoBtn +
       '  </div>' +
       '</article>'
@@ -57,7 +62,7 @@
     if (!track) return;
     track.innerHTML = TITLES.map(function (item, i) {
       return (
-        '<a class="carousel__slide' + (i === 1 ? " is-center" : "") + '" href="' + item.url + '" target="_blank" rel="noopener">' +
+        '<a class="carousel__slide' + (i === 1 ? " is-center" : "") + '" href="' + item.url + '" ' + LINK_ATTR + '>' +
         '<img src="' + item.img + '" alt="' + item.subtitle + '" loading="lazy"></a>'
       );
     }).join("");
@@ -111,7 +116,7 @@
     } else {
       modalMedia.className = "modal__media";
       modalMedia.innerHTML =
-        '<a href="' + escapeAttr(item.url) + '" target="_blank" rel="noopener">' +
+        '<a href="' + escapeAttr(item.url) + '" ' + LINK_ATTR + '>' +
         '<img src="' + escapeAttr(item.img) + '" alt="' + escapeAttr(item.subtitle) + '"></a>';
     }
     modalTitle.textContent = item.title;
@@ -119,6 +124,8 @@
     modalDesc.textContent = item.desc || "";
     modalDesc.hidden = !item.desc;
     modalWatch.href = item.url;
+    if (SAME_TAB) modalWatch.removeAttribute("target");
+    else modalWatch.setAttribute("target", "_blank");
     modal.classList.add("is-open");
     document.body.style.overflow = "hidden";
   }

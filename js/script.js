@@ -34,7 +34,7 @@
     { title: "Nachi Weinstein", subtitle: "Tisha B’Av Related SeforimChatter Podcasts", img: "images/seforim-chatter.jpg", desc: "", url: "https://content.jcn.io/ollIUj", btnText: "More Info"},
     { title: "Mishpacha Podcast Behind the Times", subtitle: "The Story the Soil of Har Habayis Tells", img: "images/mishpacha.jpg", desc: "", url: "https://content.jcn.io/veAWW8", btnText: "Play Here"},
     { title: "Rabbi Doniel Neustadt", subtitle: "Halachos Pertaining to This Year", img: "images/neustadt.jpg", desc: "", url: "https://content.jcn.io/7vtGjf", btnText: "Read Here" },
-    { title: "History for the Curious", subtitle: "Three Powerful, Unknown and Insightful Holocaust Podcasts", img: "images/hersh.jpg", desc: "", url: "https://content.jcn.io/z2f7Nc", btnText: "Read Here"},
+    { title: "History for the Curious", subtitle: "Three Powerful, Unknown and Insightful Holocaust Podcasts", img: "images/hersh.jpg", desc: "", url: "https://content.jcn.io/z2f7Nc", btnText: "Play Here"},
     { title: "Camp Agudah Toronto", subtitle: "Cold Blood", img: "images/agudah-toronto.jpg", desc: "", url: "https://content.jcn.io/RkFE5x"},
     { title: "Coach Menachem", subtitle: "Let's Get Real", img: "images/coach-menachem.jpg", desc: "", url: "https://content.jcn.io/zmxVLG"},
   ];

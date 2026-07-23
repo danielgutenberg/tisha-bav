@@ -31,6 +31,12 @@
     { title: "Beyond the Wall", subtitle: "The Call of Geulah", img: "images/beyond-wall.jpg", desc: "", url: "https://content.jcn.io/swHMWr", trailer: "" },
     { title: "Areyvut", subtitle: "Download A Practical Guide for the Nine Days…and Beyond", img: "images/areyvut.jpg", desc: "", url: "https://content.jcn.io/4sMNft", btnText: "Download Here" },
     { title: "Yad L'Achim", subtitle: "Still Standing", img: "images/yad-lachim.jpg", desc: "", url: "https://content.jcn.io/lLVfr6", trailer: "https://yadfilms.com/wp-content/uploads/2026/07/StillStandingPromo_2_Seltzer.mp4"},
+    { title: "Nachi Weinstein", subtitle: "Tisha B’Av Related SeforimChatter Podcasts", img: "images/seforim-chatter.jpg", desc: "", url: "https://content.jcn.io/ollIUj", btnText: "More Info"},
+    { title: "Mishpacha Podcast Behind the Times", subtitle: "The Story the Soil of Har Habayis Tells", img: "images/mishpacha.jpg", desc: "", url: "https://content.jcn.io/veAWW8", btnText: "Play Here"},
+    { title: "Rabbi Doniel Neustadt", subtitle: "Halachos Pertaining to This Year", img: "images/neustadt.jpg", desc: "", url: "https://content.jcn.io/7vtGjf", btnText: "Read Here" },
+    { title: "History for the Curious", subtitle: "Three Powerful, Unknown and Insightful Holocaust Podcasts", img: "images/hersh.jpg", desc: "", url: "https://content.jcn.io/z2f7Nc", btnText: "Read Here"},
+    { title: "Camp Agudah Toronto", subtitle: "Cold Blood", img: "images/agudah-toronto.jpg", desc: "", url: "https://content.jcn.io/RkFE5x"},
+    { title: "Coach Menachem", subtitle: "Let's Get Real", img: "images/coach-menachem.jpg", desc: "", url: "https://content.jcn.io/zmxVLG"},
   ];
 
   var grid = document.getElementById("cardGrid");
